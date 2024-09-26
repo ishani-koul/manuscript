@@ -1,0 +1,131 @@
+body {
+	background-color: #F9F0E0;
+	font-size: 20px;
+	font-family: "Poppins";
+	letter-spacing: 0.36px;
+	/* top | right | bottom | left */
+	padding: 40px 120px 40px 120px;
+	color: #423E3D;
+}
+
+header {
+	column-count: 2;
+	column-rule: 2px solid #827977;
+}
+
+.break{
+	break-before: column;
+	margin-left: 80px;
+}
+
+h1 {
+	color: #88334E;
+	column-span: all; /* to cancel out the column-count */
+	text-align: center;
+	font-family: "Poppins";
+	font-size: 220px;
+	font-style: normal;
+	font-weight: bold;
+	line-height: 329px;
+	padding: 40px 0; /* space between h1 and column */
+}
+
+h2 {
+	color: #88334E;
+	font-family: "Merriweather";
+	font-size: 42px;
+	font-style: normal;
+	line-height: 53px;
+	padding: 24px 0;
+}
+
+h3 {
+	color: #88334E;
+	font-family: "Merriweather";
+	font-size: 64px;
+	font-style: normal;
+	line-height: 80px;
+	padding: 24px 0;
+}
+
+h4 {
+	color: #88334E;
+	font-family: "Merriweather";
+	font-size: 32px;
+	font-style: normal;
+	line-height: 44px;
+	letter-spacing: 0.36px;
+	padding: 16px 0;
+}
+
+dt {
+	font-family: "Poppins";
+	color: #655E5C;
+	font-size: 20px;
+	font-style: normal;
+	line-height: 28px;
+	letter-spacing: 0.36px;
+}
+
+dd {
+	color: #423E3D;
+	font-family: "Merriweather";
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 36px;
+	padding-bottom: 40px;
+}
+
+#titlepart {
+	color: #88334E;
+	font-family: "Merriweather";
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 82px;
+	padding-bottom: 60px;
+}
+
+#author {
+	color: #88334E;
+	font-family: "Poppins";
+	font-size: 36px;
+	font-style: normal;
+	line-height: 52px;
+}
+
+hr {
+	border: none;
+	margin: 120px 0;
+	border-top: 2px solid #827977;
+	text-align: center;
+	height: 5px;
+  }
+  
+.quotes {
+	color: #88334E;
+	font-family: "Merriweather";
+	font-size: 36px;
+	font-style: italic;
+	line-height: 52px; 
+	letter-spacing: 0.36px;
+	border-left: 2px solid #88334E; /* vertical line */
+	padding-left: 18px;
+	margin: 16px 0;
+}
+
+.article1 {
+	padding-right: 440px;
+}
+
+.article2 {
+	padding-top: 60px;
+	padding-left: 440px;
+}
+
+.article3 {
+	padding: 60px 440px 120px 120px;
+	margin: 40px -120px ;
+	background-color: #F6E9D2;
+}
