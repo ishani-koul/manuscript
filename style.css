@@ -3,8 +3,7 @@ body {
 	font-size: 20px;
 	font-family: "Poppins";
 	letter-spacing: 0.36px;
-	/* top | right | bottom | left */
-	padding: 40px 120px 40px 120px;
+	padding: 40px 120px 0px 120px; /* top right bottom left */
 	color: #423E3D;
 }
 
@@ -125,7 +124,7 @@ hr {
 }
 
 .article3 {
-	padding: 60px 440px 120px 120px;
-	margin: 40px -120px ;
 	background-color: #F6E9D2;
+	padding: 60px 440px 60px 120px;
+	margin: 60px -120px 0px -120px ;
 }
