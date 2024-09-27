@@ -1,10 +1,15 @@
 body {
 	background-color: #F9F0E0;
 	font-size: 20px;
+	line-height: 28px;
 	font-family: "Poppins";
 	letter-spacing: 0.36px;
-	padding: 40px 120px 0px 120px; /* top right bottom left */
+	padding: 20px 120px 0px 120px; /* top right bottom left */
 	color: #423E3D;
+}
+
+p {
+	margin-bottom: 40px;
 }
 
 header {
@@ -25,7 +30,7 @@ h1 {
 	font-size: 220px;
 	font-style: normal;
 	font-weight: bold;
-	line-height: 329px;
+	line-height: 280px;
 	padding: 40px 0; /* space between h1 and column */
 }
 
@@ -35,7 +40,8 @@ h2 {
 	font-size: 42px;
 	font-style: normal;
 	line-height: 53px;
-	padding: 24px 0;
+	padding: 24px 0px;
+	margin-bottom: 50px;
 }
 
 h3 {
@@ -43,8 +49,9 @@ h3 {
 	font-family: "Merriweather";
 	font-size: 64px;
 	font-style: normal;
-	line-height: 80px;
+	line-height: 72px;
 	padding: 24px 0;
+	margin-bottom: 40px;
 }
 
 h4 {
@@ -55,6 +62,7 @@ h4 {
 	line-height: 44px;
 	letter-spacing: 0.36px;
 	padding: 16px 0;
+	margin-bottom: 8px;
 }
 
 dt {
@@ -73,7 +81,7 @@ dd {
 	font-style: normal;
 	font-weight: 200;
 	line-height: 36px;
-	padding-bottom: 40px;
+	margin-bottom: 50px;
 }
 
 #titlepart {
@@ -83,7 +91,7 @@ dd {
 	font-style: normal;
 	font-weight: 500;
 	line-height: 82px;
-	padding-bottom: 60px;
+	margin-bottom: 80px;
 }
 
 #author {
@@ -96,7 +104,7 @@ dd {
 
 hr {
 	border: none;
-	margin: 120px 0;
+	margin: 80px 0;
 	border-top: 2px solid #827977;
 	text-align: center;
 	height: 5px;
@@ -111,7 +119,7 @@ hr {
 	letter-spacing: 0.36px;
 	border-left: 2px solid #88334E; /* vertical line */
 	padding-left: 18px;
-	margin: 16px 0;
+	margin: 28px 0;
 }
 
 .article1 {
