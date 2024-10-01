@@ -1,18 +1,26 @@
+/* Overall Style */
 body {
 	background-color: #F9F0E0;
-	font-size: 20px;
-	line-height: 36px;
-	font-family: "Poppins";
+	font-size: 18px;
+	line-height: 34px;
+	font-family: "Poppins", sans-serif;
 	letter-spacing: 0.36px;
-	padding: 20px 120px 0px 120px; /* top right bottom left */
+	padding-top: 20px;
+	padding-right: 120px;
+	padding-bottom: 0px;
+	padding-left: 120px; /* top right bottom left */
 	color: #423E3D;
+	max-width: 1200px; /* test */
+	margin: 0 auto; /* Centers the container */
+	padding: 20px;
 }
 
 p {
-	margin-bottom: 40px;
-	max-width: 75ch; /* Check why */
+	margin-bottom: 36px;
+	max-width: 75ch;
 }
 
+/* Header Style */
 header {
 	column-count: 2;
 	column-rule: 2px solid #827977;
@@ -23,55 +31,52 @@ header {
 	margin-left: 80px;
 }
 
-h1 {
+/* Heading Styles */
+h1, h2, h3, h4 {
 	color: #88334E;
+	font-family: "Merriweather", serif;
+	font-style: normal;
+}
+
+h1 {
 	column-span: all; /* to cancel out the column-count */
 	text-align: center;
-	font-family: "Poppins";
+	font-family: "Poppins", sans-serif;
 	font-size: 220px;
-	font-style: normal;
 	font-weight: bold;
 	line-height: 280px;
-	padding: 40px 0; /* space between h1 and column */
+	padding-top: 40px; /* space between h1 and column */
+	padding-bottom: 40px; /* space between h1 and column */
+}
+
+h2,h3 {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-bottom: 20px;
 }
 
 h2 {
-	color: #88334E;
-	font-family: "Merriweather";
-	font-size: 42px;
-	font-style: normal;
-	line-height: 53px;
-	padding: 24px 0px;
-	margin-bottom: 50px;
-	/*position: sticky;
-	padding: 40px 1000px;
-	top: 30px;
-	width: 66%;*/
+	font-size: 36px;
+	line-height: 48px;
 }
 
 h3 {
-	color: #88334E;
-	font-family: "Merriweather";
-	font-size: 64px;
-	font-style: normal;
-	line-height: 72px;
-	padding: 24px 0;
-	margin-bottom: 40px;
+	font-size: 40px;
+	line-height: 52px;
 }
 
 h4 {
-	color: #88334E;
-	font-family: "Merriweather";
 	font-size: 32px;
-	font-style: normal;
 	line-height: 44px;
 	letter-spacing: 0.36px;
-	padding: 16px 0;
+	padding-top: 16px;
+	padding-bottom: 16px;
 	margin-bottom: 8px;
 }
 
+/* Definition List Style */
 dt {
-	font-family: "Poppins";
+	font-family: "Poppins", sans-serif;
 	color: #655E5C;
 	font-size: 20px;
 	font-style: normal;
@@ -81,7 +86,7 @@ dt {
 
 dd {
 	color: #423E3D;
-	font-family: "Merriweather";
+	font-family: "Merriweather", serif;
 	font-size: 28px;
 	font-style: normal;
 	font-weight: 200;
@@ -89,21 +94,20 @@ dd {
 	margin-bottom: 50px;
 }
 
+/* Title and Author Styles */
 #titlepart {
 	color: #88334E;
-	font-family: "Merriweather";
+	font-family: "Merriweather", serif;
 	font-size: 60px;
-	font-style: normal;
-	font-weight: 500;
+	font-weight: 400;
 	line-height: 82px;
 	margin-bottom: 80px;
 }
 
 #author {
 	color: #88334E;
-	font-family: "Poppins";
+	font-family: "Poppins", sans-serif;
 	font-size: 36px;
-	font-style: normal;
 	line-height: 52px;
 }
 
@@ -113,31 +117,54 @@ hr {
 	border-top: 2px solid #827977;
 	text-align: center;
 	height: 5px;
-  }
-  
+}
+
+/* Blockquote Style */
 .quotes {
 	color: #88334E;
-	font-family: "Merriweather";
-	font-size: 36px;
+	font-family: "Merriweather", serif;
+	font-size: 28px;
 	font-style: italic;
-	line-height: 52px; 
+	line-height: 48px; 
 	letter-spacing: 0.36px;
 	border-left: 2px solid #88334E; /* vertical line */
 	padding-left: 18px;
 	margin: 28px 0;
 }
 
-.article1 {
+/* Article Styles */
+article:nth-child(1) {
 	padding-right: 440px;
 }
 
-.article2 {
-	padding-top: 60px;
+article:nth-child(2){
+	padding-top: 40px;
 	padding-left: 440px;
 }
 
-.article3 {
+article:nth-child(3){
 	background-color: #F6E9D2;
-	padding: 60px 440px 60px 120px;
-	margin: 60px -120px 0px -120px ;
+	padding-top: 60px;
+	padding-right: 200px;
+	padding-bottom: 60px;
+	padding-left: 120px;
+	margin: 60px 120px 0px 120px ;
+}
+
+/* Link Style */
+a {
+	color: #88334E;
+	text-decoration: underline;
+	font-style: italic;
+}
+
+/* Footer Style */
+footer {
+	font-size: 16px;
+	line-height: 32px;
+	padding-top: 30px;
+	padding-right: 120px;
+	padding-bottom: 60px;
+	padding-left: 120px;
+	text-align: center;
 }
