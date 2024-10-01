@@ -10,6 +10,7 @@ body {
 
 p {
 	margin-bottom: 40px;
+	max-width: 75ch; /* Check why */
 }
 
 header {
@@ -42,6 +43,10 @@ h2 {
 	line-height: 53px;
 	padding: 24px 0px;
 	margin-bottom: 50px;
+	/*position: sticky;
+	padding: 40px 1000px;
+	top: 30px;
+	width: 66%;*/
 }
 
 h3 {
