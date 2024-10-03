@@ -8,7 +8,7 @@ body {
 	padding-top: 20px;
 	padding-right: 120px;
 	padding-bottom: 0px;
-	padding-left: 120px; /* top right bottom left */
+	padding-left: 120px; 
 	color: #423E3D;
 	max-width: 1200px; /* test */
 	margin: 0 auto; /* Centers the container */
@@ -24,6 +24,8 @@ p {
 header {
 	column-count: 2;
 	column-rule: 2px solid #827977;
+	padding-bottom: 60px;
+    border-bottom: 2px solid #827977;
 }
 
 .break{
@@ -50,12 +52,13 @@ h1 {
 }
 
 h2,h3 {
-	padding-top: 24px;
+	margin-top: 40px;
 	padding-bottom: 24px;
 	margin-bottom: 20px;
 }
 
 h2 {
+	padding-top: 40px;
 	font-size: 36px;
 	line-height: 48px;
 }
@@ -111,13 +114,13 @@ dd {
 	line-height: 52px;
 }
 
-hr {
+/* hr { 
 	border: none;
 	margin: 80px 0;
 	border-top: 2px solid #827977;
 	text-align: center;
 	height: 5px;
-}
+}*/
 
 /* Blockquote Style */
 .quotes {
